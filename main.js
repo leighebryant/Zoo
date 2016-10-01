@@ -16,5 +16,5 @@ function Animal(name, sex, dateOfBirth, birthAbility, habitat){
 var fennecFox = new Animal('Franz', 'Female', 'dateOfBirth', 'Able', 'Desert');
 // fennecFox.init();
 var atlanticPuffin = new Animal('Pablo', 'Male', 'dateOfBirth', 'Unable', 'Beach/Ocean');
-console.log(fennecFox);
-console.log(atlanticPuffin);
+console.log(fennecFox.stats);
+console.log(atlanticPuffin.stats);
