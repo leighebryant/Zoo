@@ -4,32 +4,40 @@ body {
 }
 
 #foxCage,
-#puffinCage {
+#puffinCage, #capybaraCage {
     float: left;
     position: relative;
-    background-color: lightgrey;
-    left: 350px;
+    background-color: #e1f2e2;
+    left: 225px;
     margin: 10px;
     padding: 10px;
-    border: 2px solid darkgrey;
+    border: 2px solid #a8a8a8;
     border-radius: 5px;
 
     img {
         width: 200px;
-        border: 2px solid darkgrey;
+        border: 2px solid #a8a8a8;
         border-radius: 5px;
         padding: 10px;
         background-color: white;
     }
 }
 
-#foxInfo, #puffinInfo{
+#foxInfo, #puffinInfo, #capybaraInfo{
   height:150px;
   width: 200px;
   margin: 5px;
   text-align: center;
-  color: white;
+  color: #4f4f4f;
   font-weight: lighter;
   font-size: 20px;
   word-wrap: break-word;
+}
+
+h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: 42px;
+  color: #4f4f4f;
+
 }

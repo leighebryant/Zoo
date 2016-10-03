@@ -6,10 +6,10 @@
 Animal.prototype = {
     birthAbility: function() {
         var animal = this.name;
-        if ('Franz' === animal) {
-            return 'mammal';
-        } else {
+        if ('Pablo' === animal) {
             return 'bird';
+        } else {
+            return 'mammal';
         }
     },
 
@@ -62,3 +62,11 @@ document.getElementById('puffinInfo').innerHTML = atlanticPuffin.speak();
 // console.assert(atlanticPuffin.age === "08/09/2010");
 // console.assert(atlanticPuffin.habitat === "ocean");
 // console.assert(atlanticPuffin.diet === "little fish and sometimes crustaceans");
+
+var capybara = new Animal('Carl', '01/02/2013', 'forest near water', 'grass and water plants');
+document.getElementById('capybaraInfo').innerHTML = capybara.speak();
+//Testing
+// console.assert(capybara.name === "Carl");
+// console.assert(capybara.age === "01/02/2013");
+// console.assert(capybara.habitat === "forest near water");
+// console.assert(capybara.diet === "grass and water plants");
