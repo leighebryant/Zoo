@@ -1,0 +1,24 @@
+body {
+    background-color: #effbff;
+    box-sizing: border-box;
+}
+
+.foxCage,
+.puffinCage {
+    float: left;
+    position: relative;
+    background-color: lightgrey;
+    left: 350px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid darkgrey;
+    border-radius: 5px;
+
+    img {
+        width: 200px;
+        border: 2px solid darkgrey;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: white;
+    }
+}
