@@ -48,7 +48,17 @@ function Animal(name, age, habitat, diet) {
 
 var fennecFox = new Animal('Franz', '09/09/1999', 'desert', 'rodents, eggs, reptiles, and insects');
 document.getElementById('foxInfo').innerHTML = fennecFox.speak();
+//Testing
+// console.assert(fennecFox.name === "Franz");
+// console.assert(fennecFox.age === "09/09/1999");
+// console.assert(fennecFox.habitat === "desert");
+// console.assert(fennecFox.diet === "rodents, eggs, reptiles, and insects");
 
 
 var atlanticPuffin = new Animal('Pablo', '08/09/2010', 'ocean', 'little fish and sometimes crustaceans');
 document.getElementById('puffinInfo').innerHTML = atlanticPuffin.speak();
+//Testing
+// console.assert(atlanticPuffin.name === "Pablo");
+// console.assert(atlanticPuffin.age === "08/09/2010");
+// console.assert(atlanticPuffin.habitat === "ocean");
+// console.assert(atlanticPuffin.diet === "little fish and sometimes crustaceans");
