@@ -2,8 +2,8 @@ body {
   background-color: #effbff;
   box-sizing: border-box; }
 
-.foxCage,
-.puffinCage {
+#foxCage,
+#puffinCage {
   float: left;
   position: relative;
   background-color: lightgrey;
@@ -12,12 +12,22 @@ body {
   padding: 10px;
   border: 2px solid darkgrey;
   border-radius: 5px; }
-  .foxCage img,
-  .puffinCage img {
+  #foxCage img,
+  #puffinCage img {
     width: 200px;
     border: 2px solid darkgrey;
     border-radius: 5px;
     padding: 10px;
     background-color: white; }
+
+#foxInfo, #puffinInfo {
+  height: 150px;
+  width: 200px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  word-wrap: break-word; }
 
 /*# sourceMappingURL=main.css.map */

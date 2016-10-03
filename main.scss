@@ -3,8 +3,8 @@ body {
     box-sizing: border-box;
 }
 
-.foxCage,
-.puffinCage {
+#foxCage,
+#puffinCage {
     float: left;
     position: relative;
     background-color: lightgrey;
@@ -21,4 +21,15 @@ body {
         padding: 10px;
         background-color: white;
     }
+}
+
+#foxInfo, #puffinInfo{
+  height:150px;
+  width: 200px;
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+  font-size: 20px;
+  word-wrap: break-word;
 }
