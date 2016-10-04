@@ -4,19 +4,22 @@
       "name": "Franz",
       "age": "09/09/1999",
       "habitat": "desert",
-      "diet": "rodents, eggs, reptiles, and insects"
+      "diet": "rodents, eggs, reptiles, and insects",
+      "species": "Fennec Fox"
     },
     {
       "name": "Pablo",
       "age": "08/09/2010",
       "habitat": "ocean",
-      "diet": "little fish and sometimes crustaceans"
+      "diet": "little fish and sometimes crustaceans",
+      "species": "Atlantic Puffin"
     },
     {
       "name": "Carl",
       "age": "01/02/2013",
       "habitat": "forest near water",
-      "diet": "grass and water plants"
+      "diet": "grass and water plants",
+      "species": "Capybara"
     }
   ]
 }
